@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:background="@drawable/dialog_shape"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_marginTop="25dp"
+        android:inputType="number"
+        android:hint="Enter BusNumber Ex:-8848"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_marginTop="30dp"
+        android:inputType="text"
+        android:hint="Enter Driver Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_marginTop="30dp"
+        android:inputType="number"
+        android:hint="Enter Driver Ph Number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+     <Button
+         android:id="@+id/button_start"
+         android:textAllCaps="false"
+         android:textSize="25sp"
+         android:background="@drawable/button_shape"
+         android:textColor="#FCFCFB"
+         android:text="Let's Start"
+         android:layout_marginBottom="25dp"
+         android:layout_marginTop="40dp"
+         android:layout_gravity="center"
+         android:layout_width="170dp"
+         android:layout_height="wrap_content"/>
+
+
+
+
+</LinearLayout>
